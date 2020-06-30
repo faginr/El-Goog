@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    font-size: 13px;
+}
+
+.header-left span, .header-right span {
+    margin: 0px 10px 0px 10px;
+}
+
+.bars {
+    font-size: 1.4rem;
+}
+
+.circle {
+    font-size: 3rem;
+}
+
+footer {
+    font-size: 14px;
+    background-color: #efefef;
+    color: #777777;
+}
+
+.footer-left span, .footer-right span {
+    margin: 0px 15px 0px 15px;
+}
+
+main {
+    width: 100vw;
+    height: 88vh;
+    text-align: center;
+}
+
+.title {
+    padding-top: 16vh;
+    font-size: 4.5rem;
+}
+
+.one {
+    color: #4285F4;
+}
+.two {
+    color: #EA4335;
+}
+.three {
+    color: #FBBC05;
+}
+.four {
+    color: #4285F4;
+}
+.five {
+    color: #34A853;
+}
+.six {
+    color: #EA4335;
+}
